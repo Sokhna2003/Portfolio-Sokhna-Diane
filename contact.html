@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta
+        name="description"
+        content="Contactez Sokhna DIANÉ, développeuse web junior."
+    />
+
+    <meta name="author" content="Sokhna DIANÉ" />
+
+    <title>Sokhna DIANÉ | Contact</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+
+<body class="d-flex flex-column">
+
+    <main class="flex-shrink-0">
+
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+
+            <div class="container px-5">
+
+                <a class="navbar-brand" href="index.html">
+                    <span class="fw-bolder text-primary">
+                        Sokhna DIANÉ
+                    </span>
+                </a>
+
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Ouvrir le menu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Accueil
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">
+                                Parcours
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">
+                                Projets
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- Page content -->
+        <section class="py-5">
+
+            <div class="container px-5">
+
+
+                <!-- Contact section -->
+
+                <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+
+                    <div class="text-center mb-5">
+
+                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+
+
+                        <h1 class="fw-bolder">
+                            Me contacter
+                        </h1>
+
+
+                        <p class="lead fw-normal text-muted mb-0">
+                            Une question, un projet ou une opportunité ?
+                            N'hésitez pas à me contacter.
+                        </p>
+
+                    </div>
+
+
+                    <div class="row gx-5 justify-content-center">
+
+                        <div class="col-lg-8 col-xl-6">
+
+
+                            <!-- Contact Form -->
+
+                            <form id="contactForm">
+
+
+                                <!-- Name -->
+
+                                <div class="form-floating mb-3">
+
+                                    <input
+                                        class="form-control"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Votre nom"
+                                    />
+
+                                    <label for="name">
+                                        Nom complet
+                                    </label>
+
+                                    <div
+                                        class="invalid-feedback"
+                                        id="nameError"
+                                    >
+                                        Veuillez renseigner votre nom.
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Email -->
+
+                                <div class="form-floating mb-3">
+
+                                    <input
+                                        class="form-control"
+                                        id="email"
+                                        type="email"
+                                        placeholder="nom@example.com"
+                                    />
+
+                                    <label for="email">
+                                        Adresse e-mail
+                                    </label>
+
+                                    <div
+                                        class="invalid-feedback"
+                                        id="emailError"
+                                    >
+                                        Veuillez renseigner une adresse e-mail valide.
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Phone -->
+
+                                <div class="form-floating mb-3">
+
+                                    <input
+                                        class="form-control"
+                                        id="phone"
+                                        type="tel"
+                                        placeholder="Votre numéro de téléphone"
+                                    />
+
+                                    <label for="phone">
+                                        Numéro de téléphone
+                                    </label>
+
+                                </div>
+
+
+                                <!-- Message -->
+
+                                <div class="form-floating mb-3">
+
+                                    <textarea
+                                        class="form-control"
+                                        id="message"
+                                        placeholder="Votre message"
+                                        style="height: 10rem"
+                                    ></textarea>
+
+                                    <label for="message">
+                                        Message
+                                    </label>
+
+                                    <div
+                                        class="invalid-feedback"
+                                        id="messageError"
+                                    >
+                                        Veuillez écrire votre message.
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Success message -->
+
+                                <div
+                                    class="d-none"
+                                    id="submitSuccessMessage"
+                                >
+
+                                    <div class="text-center mb-3">
+
+                                        <div class="fw-bolder text-success">
+                                            Message envoyé avec succès !
+                                        </div>
+
+                                        <p class="text-muted mb-0">
+                                            Merci pour votre message.
+                                            Je vous répondrai dès que possible.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Error message -->
+
+                                <div
+                                    class="d-none"
+                                    id="submitErrorMessage"
+                                >
+
+                                    <div class="text-center text-danger mb-3">
+                                        Une erreur est survenue.
+                                        Veuillez réessayer.
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Submit -->
+
+                                <div class="d-grid">
+
+                                    <button
+                                        class="btn btn-primary btn-lg"
+                                        id="submitButton"
+                                        type="submit"
+                                    >
+                                        <i class="bi bi-send me-2"></i>
+                                        Envoyer le message
+                                    </button>
+
+                                </div>
+
+
+                            </form>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="bg-white py-4 mt-auto">
+
+        <div class="container px-5">
+
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+
+                <div class="col-auto">
+
+                    <div class="small m-0">
+                        Copyright &copy; Sokhna DIANÉ 2026
+                    </div>
+
+                </div>
+
+
+                <div class="col-auto">
+
+                    <a class="small" href="index.html">
+                        Accueil
+                    </a>
+
+                    <span class="mx-1">&middot;</span>
+
+                    <a class="small" href="resume.html">
+                        Parcours
+                    </a>
+
+                    <span class="mx-1">&middot;</span>
+
+                    <a class="small" href="projects.html">
+                        Projets
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap core JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core theme JS -->
+
+    <script src="js/scripts.js"></script>
+
+
+    <!-- Contact Form Validation -->
+
+    <script>
+
+        const contactForm = document.getElementById("contactForm");
+
+        contactForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const name = document.getElementById("name");
+            const email = document.getElementById("email");
+            const message = document.getElementById("message");
+
+            const nameError = document.getElementById("nameError");
+            const emailError = document.getElementById("emailError");
+            const messageError = document.getElementById("messageError");
+
+            const successMessage = document.getElementById("submitSuccessMessage");
+
+            let valid = true;
+
+
+            // Réinitialiser les erreurs
+
+            name.classList.remove("is-invalid");
+            email.classList.remove("is-invalid");
+            message.classList.remove("is-invalid");
+
+            successMessage.classList.add("d-none");
+
+
+            // Vérification du nom
+
+            if (name.value.trim() === "") {
+
+                name.classList.add("is-invalid");
+                valid = false;
+
+            }
+
+
+            // Vérification de l'e-mail
+
+            if (
+                email.value.trim() === "" ||
+                !email.value.includes("@")
+            ) {
+
+                email.classList.add("is-invalid");
+                valid = false;
+
+            }
+
+
+            // Vérification du message
+
+            if (message.value.trim() === "") {
+
+                message.classList.add("is-invalid");
+                valid = false;
+
+            }
+
+
+            // Si le formulaire est valide
+
+            if (valid) {
+
+                successMessage.classList.remove("d-none");
+
+                contactForm.reset();
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
